@@ -3,6 +3,7 @@ package com.example.simpleparadox.listycity;
 import org.junit.jupiter.api.Test;
 
 
+import static java.lang.Boolean.FALSE;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CityListTest {
@@ -93,4 +94,11 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testThatFails() {
+
+        assertTrue(FALSE);
+    }
 }
+
