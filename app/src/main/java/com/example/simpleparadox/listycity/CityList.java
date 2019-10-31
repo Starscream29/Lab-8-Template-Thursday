@@ -81,10 +81,10 @@ public class CityList {
     /**
      * Return the size of the city list
      *
-     * @return whether the list empty or not
+     * @return true if city if empty
      */
     public Boolean emptyCity() {
-        return cities.isEmpty();
+        return !cities.isEmpty();
     }
 
 }
