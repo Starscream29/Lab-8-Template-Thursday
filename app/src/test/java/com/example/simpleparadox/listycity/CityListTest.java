@@ -97,8 +97,8 @@ class CityListTest {
 
     @Test
     void testThatFails() {
-
-        assertTrue(FALSE);
+        CityList cityList = mockCityList();
+        assertTrue(cityList.emptyCity());
     }
 }
 
